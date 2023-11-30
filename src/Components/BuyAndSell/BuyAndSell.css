@@ -1,0 +1,19 @@
+.buy-sell {
+    margin-top: 40vh;
+    
+}
+.buy {
+    margin: auto;
+    width: 80%;
+    background: var(--secondary-color);
+    color: white;
+    padding:1px;
+}
+.sell {
+    margin: auto;
+    margin-top: 10px;
+    padding:1px;
+    width: 80%;
+    background: var(--accent-color);
+    color: white;
+}
