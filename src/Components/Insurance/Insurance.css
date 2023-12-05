@@ -1,0 +1,48 @@
+.insurance {
+    margin-top: 2rem;
+}
+.insurance form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.insurance form label {
+    width: 90%;
+
+}
+
+.insurance form input {
+    width: 5%;
+    /* background-color: green; */
+}
+
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    /* border-radius: 15px; */
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 13px;
+    height: 13px;
+    /* border-radius: 15px; */
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: rgb(37, 0, 107);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid gold;
+}

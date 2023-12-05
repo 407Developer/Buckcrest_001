@@ -1,0 +1,18 @@
+.navigation {
+    position: fixed;
+    bottom: 0;
+    width: 22rem;
+    height: 3rem;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    /* background: var(--primary-color); */
+}
+
+.navigation .flex-row {
+    justify-content: space-between;
+}
+.navigation .flex-col {
+    align-items: center;
+    color: gray;
+    font-size: small;
+}

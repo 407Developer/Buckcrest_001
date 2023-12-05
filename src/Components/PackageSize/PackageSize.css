@@ -1,0 +1,30 @@
+.title {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: bold;
+    width: 100%;
+}
+
+.box-image img{
+    max-width: 70px;
+    /* box-sizing: border-box; */
+    height: 50px;
+}
+.box-image img:last-child{
+    width: 100px;
+}
+.package-size .flex-row{
+    justify-content: space-between;
+}
+.box {
+    height: 7rem;
+    padding: 5px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+}
+.box .description {
+    font-weight: 500;
+}

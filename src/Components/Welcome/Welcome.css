@@ -10,17 +10,17 @@
 .welcome form {
     width: 100%;
 }
-.welcome .flex-col {
+.welcome .flex-row {
     margin-bottom: 20px;
     gap: 0;
 }
-.welcome input {
+.welcome .flex-row input {
     border-radius: 5px 0 0 5px;
     background: #fff;
     border: none;
 }
 
-.welcome .flex-col button {
+.welcome .flex-row button {
     background: #fff;
     border: none;
     margin: 0;
