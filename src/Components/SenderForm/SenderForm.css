@@ -1,0 +1,39 @@
+/* Style for the form container */
+.sender-form {
+    /* width: 300px; */
+    margin: 0 auto !important;
+    font-family: Arial, sans-serif !important;
+    align-items: stretch !important;
+  }
+  
+  /* Style for form labels */
+  .sender-form label {
+    display: block !important;
+    margin-bottom: 5px !important;
+  }
+  
+  /* Style for form inputs */
+  .sender-form input[type="text"],
+  .sender-form input[type="email"],
+  .sender-form input[type="tel"] {
+    width: 95% !important;
+    padding: 8px !important;
+    margin-bottom: 10px !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+  }
+  
+  /* Style for the submit button */
+  .sender-form button[type="submit"] {
+    background-color: #25006b !important;
+    color: white !important;
+    padding: 10px 20px !important;
+    border: none !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+  }
+  
+  .sender-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

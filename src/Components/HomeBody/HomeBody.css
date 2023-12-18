@@ -1,10 +1,72 @@
 .home-body {
     width: 100%;
-    height: 75vh;
+    height: 50vh;
     position: fixed;
     bottom: 0;
     border-radius: 30px 30px 0 0 ;
-    background: #eee;
+    background: #fff;
     box-sizing: border-box;
+    box-shadow: 0px -1px 20px #0a05054f;
+}
+.home-body .destination {
+    display: flex;
+    border-radius: 10px;
+    background: #ddd;
+    border: none;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
 
+.home-body .destination input{
+    background: #ddd;
+    border: none;
+    box-shadow: none;
+    height: 30px;
+    width: 80%;
+    font-size: large;
+}
+.home-body .destination button{
+    border-radius: 50%;
+    width: 30px;
+    background: #c7c7c7;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    height: 30px;
+}
+
+.details-flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.details-flex-row button,
+.next-button {
+    border: 1px solid #25006b;
+    width: 160px;
+    height: 40px;
+    /* background:; */
+    /* color: white; */
+    font-size: large;
+    border-radius: 5px;
+}
+
+.next-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50px;
+    /* background: var(--primary-color); */
+    font-size: medium;
+}
+.next-button:hover{
+    background: var(--primary-color);
+    color: white;
 }

@@ -1,8 +1,8 @@
 .welcome {
     /* margin: auto; */
     font-weight: 900;
-    height: 50vh;
-    background: var(--primary-color);
+    height: 60vh;
+    /* background: var(--primary-color); */
     position: fixed;
     width: 100vw;
     /* margin-top: 40vh; */
@@ -35,11 +35,33 @@
     align-items: center;
     justify-content: space-between;
 }
-.estimated-shipping {
-    color: white;
-    justify-content: space-between;
+.greeting {
+    color: rgb(0, 0, 0);
+    justify-content: start;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: larger;
+    /* background: #fff; */
+    height: 40px;
+    width: 100%;
 }
 /* .form {
     margin-top: 3 0vh;
 } */
+
+#menu-bar {
+    position: fixed;
+    top: 40%;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    color: black;
+    box-shadow: -1px 3px 17px 1px #0a05054f;
+}

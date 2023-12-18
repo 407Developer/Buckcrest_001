@@ -1,0 +1,28 @@
+.logo-page {
+    /* background: var(--primary-color) !important; */
+    /* width: 100vw; */
+    /* height: 100vh; */
+}
+.logo-page .app-logo{
+    position: fixed;
+    top: 40%;
+    left: 30%;
+    width: 10rem;
+}
+.logo-page .app-logo-bg {
+    position: fixed;
+    width: 35rem;
+    bottom: -10rem;
+    left: -8rem;
+    opacity: 0.45;
+    filter: drop-shadow(10px 10px 0 0, 10px 10px);
+}
+.logo-page .next-button {
+    background: var(--primary-color);
+    width: 10rem;
+    color: white;
+    left: 30%;
+    bottom: 10%;
+    font-size: large;
+    font-weight: bold;
+}
